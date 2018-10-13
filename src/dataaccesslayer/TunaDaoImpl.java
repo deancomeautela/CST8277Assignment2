@@ -7,10 +7,9 @@ package dataaccesslayer;
  * http://ramj2ee.blogspot.in/2013/08/data-access-object-design-pattern-or.html
  */ 
 import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.List;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import datatransfer.Tuna;
 
@@ -101,27 +100,27 @@ public class TunaDaoImpl implements TunaDao{
 		}
 	}
 
-	@Override
-	public List<Tuna> getAllTunas() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Tuna getTunaById(Integer tunaID) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void updateTuna(Tuna tuna) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void deleteTuna(Tuna tuna) {
-		// TODO Auto-generated method stub
-		
-	}
+//	@Override
+//	public List<Tuna> getAllTunas() {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//	@Override
+//	public Tuna getTunaById(Integer tunaID) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//	@Override
+//	public void updateTuna(Tuna tuna) {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	@Override
+//	public void deleteTuna(Tuna tuna) {
+//		// TODO Auto-generated method stub
+//		
+//	}
 }

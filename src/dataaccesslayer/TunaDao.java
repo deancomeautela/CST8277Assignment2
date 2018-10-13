@@ -9,7 +9,6 @@
 package dataaccesslayer;
 
 import java.sql.SQLException;
-import java.util.List;
 
 // import java.util.List; // not needed for now
 import datatransfer.Tuna; 
@@ -38,8 +37,8 @@ public interface TunaDao {
 	 */
 	void insertTuna(Tuna tuna) throws SQLException;
 	
-	 List<Tuna> getAllTunas();
-     Tuna getTunaById(Integer tunaID);
-	 void updateTuna(Tuna tuna);
-	 void deleteTuna(Tuna tuna);
+//	 List<Tuna> getAllTunas();
+//     Tuna getTunaById(Integer tunaID);
+//	 void updateTuna(Tuna tuna);
+//	 void deleteTuna(Tuna tuna);
 }

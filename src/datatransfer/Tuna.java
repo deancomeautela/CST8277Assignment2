@@ -20,28 +20,28 @@ import java.io.Serializable;
 public class Tuna implements Serializable{
 	/** Explicit serialVersionUID to avoid generating one automatically */
 	private static final long serialVersionUID = 1L;
-	
+
 	/** ID value for database */
 	private Integer id;
-	
+
 	/** recordNumber for database, originally matched a dataset file line number */
 	private int recordNumber;
-	
+
 	/** omega field */
 	private String omega;
-	
+
 	/** delta field */
 	private String delta;
-	
+
 	/** theta field */
 	private String theta;
-	
+
 	/** uuid field, contains UUID as String */
 	private String uuid;
-	
+
 	/** see lab hand-out notes from assignment 1 */
 	private boolean isLastTuna;
-	
+
 	/**
 	 * Default constructor, sets id and recordNumber to zero, omega, delta, theta, and uuid to empty Strings
 	 * @author Stanley Pieda
@@ -49,7 +49,7 @@ public class Tuna implements Serializable{
 	public Tuna() {
 		this(0,0,"","","","");
 	}
-	
+
 	/**
 	 * Telescoping constructor.
 	 * @param id The id as Integer
@@ -68,7 +68,7 @@ public class Tuna implements Serializable{
 		this.theta = theta;
 		this.uuid = uuid;
 	}
-	
+
 	/** Getter for id */
 	public Integer getId() {
 		return id;
@@ -125,7 +125,7 @@ public class Tuna implements Serializable{
 	public void setLastTuna(boolean isLastTuna) {
 		this.isLastTuna = isLastTuna;
 	}
-	
+
 	/** Overridden toString() to provide formatting for console output. */
 	@Override
 	public String toString() {
